@@ -1,0 +1,188 @@
+
+# UNIT III – POLICY OPTIMIZATION
+
+## Adaptive Maze Adventure Game – Intelligent Game Agent Using Policy-Based Reinforcement Learning
+
+### Project Overview
+
+This project focuses on designing, implementing and evaluating an intelligent game agent using Policy-Based Reinforcement Learning techniques.
+
+The project develops an Adaptive Maze Adventure Game in which an autonomous game character navigates through a dynamic maze, collects treasures, avoids enemies, overcomes obstacles and reaches the exit while maximizing rewards.
+
+### Course Information
+
+| Details | Description |
+|---|---|
+| Unit | Unit III – Policy Optimization |
+| Subject | Reinforcement Learning |
+| Assignment Theme | Game Development |
+| Project | Adaptive Maze Adventure Game |
+| Mode | Pair Work – 2 Students |
+| Duration | 1 Week |
+| Total Marks | 50 |
+| Bloom's Levels | K4 – Analyse, K5 – Evaluate |
+
+### Syllabus Covered
+
+- Introduction to Policy-Based Methods
+- Vanilla Policy Gradient
+- REINFORCE Algorithm
+- Stochastic Policy Search
+- Actor-Critic Methods
+- Advantage Actor-Critic (A2C)
+- Asynchronous Advantage Actor-Critic (A3C)
+- Proximal Policy Optimization (PPO)
+- Trust Region Policy Optimization (TRPO)
+- Deep Deterministic Policy Gradient (DDPG)
+
+### Project Objectives
+
+1. Design a dynamic maze environment using Python.
+2. Develop an intelligent game agent using policy-based reinforcement learning.
+3. Implement stochastic policies for intelligent action selection.
+4. Apply policy gradient methods to optimize game strategies.
+5. Implement REINFORCE and Actor-Critic algorithms.
+6. Analyse and compare A2C and A3C learning mechanisms.
+7. Evaluate PPO and TRPO for stable policy optimization.
+8. Implement DDPG for continuous action control.
+9. Evaluate agent performance using rewards, game completion rates and training results.
+
+### Problem Statement
+
+The game character must navigate through a maze containing walls, empty paths, treasures, moving enemies and an exit point.
+
+The agent can perform four basic actions:
+
+- Up
+- Down
+- Left
+- Right
+
+The environment provides positive rewards for collecting treasures and reaching the exit, while negative rewards are given for hitting obstacles and encountering enemies.
+
+The main objective is to train an intelligent agent that learns an effective action-selection strategy and successfully completes the game under changing environmental conditions.
+
+### Assignment Tasks
+
+#### Q1 – Design and Analyse the Adaptive Maze Adventure Game Environment (8 Marks)
+
+- Design a maze environment of at least 5 × 5 cells.
+- Define state space, action space, reward function and terminal conditions.
+- Identify the game character, enemies, obstacles, treasures and exit.
+- Implement different maze configurations.
+- Analyse stochastic policies and reward-based decision-making.
+- Compare rule-based and policy-based game agents.
+
+#### Q2 – Implement Vanilla Policy Gradient and REINFORCE (10 Marks)
+
+- Develop a stochastic policy for action selection.
+- Implement the REINFORCE algorithm.
+- Calculate discounted returns using a discount factor.
+- Update policy parameters using policy gradients.
+- Train the agent for at least 100 episodes.
+- Analyse training rewards and game completion rates.
+
+#### Q3 – Design and Implement Actor-Critic Algorithms (10 Marks)
+
+- Design Actor and Critic networks.
+- Implement state-value estimation.
+- Calculate temporal-difference error and advantage.
+- Investigate A2C and A3C algorithms.
+- Compare REINFORCE and Actor-Critic methods.
+- Evaluate training stability and convergence behaviour.
+
+#### Q4 – Analyse and Compare PPO and TRPO (10 Marks)
+
+- Implement Proximal Policy Optimization (PPO).
+- Study the clipped objective function.
+- Understand probability ratios and clipping parameters.
+- Analyse Trust Region Policy Optimization (TRPO).
+- Compare PPO and TRPO in terms of stability and computational requirements.
+- Evaluate performance under changing obstacle configurations.
+
+#### Q5 – Develop and Evaluate an Intelligent Game Agent Using DDPG (12 Marks)
+
+- Design a 2D continuous-control game environment.
+- Implement Actor and Critic networks.
+- Develop a DDPG agent.
+- Apply experience replay and target networks.
+- Implement soft target network updates.
+- Compare DDPG with PPO or A2C.
+- Evaluate performance using cumulative rewards, completion rates and training stability.
+
+### Algorithms Used
+
+| Algorithm | Purpose |
+|---|---|
+| Vanilla Policy Gradient | Policy optimization |
+| REINFORCE | Episode-based policy learning |
+| A2C | Synchronous Actor-Critic learning |
+| A3C | Asynchronous Actor-Critic learning |
+| PPO | Stable policy optimization |
+| TRPO | Constrained policy updates |
+| DDPG | Continuous action control |
+
+### Technologies Used
+
+- Programming Language: Python
+- Libraries: NumPy, Matplotlib
+- Deep Learning Frameworks: TensorFlow / Keras or PyTorch
+- Game Development: Pygame
+- Reinforcement Learning Environment: Gymnasium
+- Version Control: Git and GitHub
+
+### Experimental Evaluation
+
+The game agent is evaluated using the following performance measures:
+
+- Total episode reward.
+- Number of steps taken.
+- Number of treasures collected.
+- Number of enemy collisions.
+- Game completion rate.
+- Survival time.
+- Training stability and convergence.
+
+### Expected Results
+
+- Successful navigation through different maze configurations.
+- Intelligent treasure collection and enemy avoidance.
+- Improved action selection through policy optimization.
+- Stable learning through Actor-Critic methods.
+- Improved policy updates using PPO and TRPO.
+- Continuous movement control using DDPG.
+- Performance comparisons through reward graphs and experimental observations.
+
+### Pair Work and Responsibilities
+
+Both students participate in all five questions and individually execute the required programs in their respective GitHub repositories.
+
+The assignment follows the learning process:
+
+**Design → Implementation → Analysis → Evaluation**
+
+Student A and Student B alternate individual responsibilities across the questions while jointly understanding and defending the complete assignment.
+
+### Conclusion
+
+This project demonstrates the application of policy-based reinforcement learning algorithms in intelligent game development.
+
+By implementing and evaluating Vanilla Policy Gradient, REINFORCE, Actor-Critic, PPO, TRPO and DDPG, the project explores how autonomous game agents can learn effective strategies in dynamic environments.
+
+The ultimate goal is to develop an adaptive intelligent game agent capable of making effective decisions, maximizing rewards and successfully navigating changing game conditions.
+
+### Student Details
+
+**Student A**
+- Name: [Enter Student Name]
+- Register Number: [Enter Register Number]
+- GitHub Repository: [Enter GitHub Link]
+
+**Student B**
+- Name: [Enter Student Name]
+- Register Number: [Enter Register Number]
+- GitHub Repository: [Enter GitHub Link]
+
+---
+
+**UNIT III – POLICY OPTIMIZATION | Adaptive Maze Adventure Game**
